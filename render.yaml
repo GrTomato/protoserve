@@ -4,5 +4,5 @@ services:
     runtime: go
     plan: free
     buildCommand: go build -o serv
-    startCommand: ./serv
+    startCommand: ./serv 127.0.0.1 8080
     branch: main
