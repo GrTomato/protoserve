@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: go
-    runtime: go
-    plan: free
-    buildCommand: go build -o serv
-    startCommand: ./serv 127.0.0.1 8083
-    branch: main
